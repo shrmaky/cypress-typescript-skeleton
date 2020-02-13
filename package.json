@@ -1,0 +1,32 @@
+{
+  "name": "cypress-typescript-skeleton",
+  "version": "1.0.0",
+  "description": "cypress-typescript-skeleton",
+  "main": "index.js",
+  "dependencies": {
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.1",
+    "cypress": "^3.8.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5"
+  },
+  "scripts": {
+    "cypress": "cypress open",
+    "cli": "cypress run",
+    "check": "tsc --noEmit --pretty",
+    "check:cy": "tsc --noEmit --pretty --project cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tradeling/qa-api-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrmaky/cypress-typescript-skeleton/issues"
+  },
+  "homepage": "https://github.com/shrmaky/cypress-typescript-skeleton#readme"
+}
